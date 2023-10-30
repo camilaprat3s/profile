@@ -1,58 +1,458 @@
-body {
-  font-family: 'Quicksand', sans-serif;
-  background-color: #BEB7DF;
-  color: #faf8f7; /* Updated color code */
-  padding: 20px;
-  text-align: center;
-  line-height: 1.5;
+.landing-page {
+  background-color: #fffefd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-h1, h2, h3 {
-  color: black;
-  font-family: "Croissant One", cursive;
-  font-size: 25px;
-  line-height: 1.5;
+.landing-page .div {
+  background-color: #fffefd;
+  height: 3488px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
 }
 
-ul.social-links {
-  list-style: none;
-  padding: 0;
+.landing-page .header {
+  background-color: transparent;
+  height: 1080px;
+  left: 22px;
+  position: absolute;
+  top: 113px;
+  width: 1920px;
 }
 
-ul.social-links li a {
-  text-decoration: none;
-  color: #34113F;
-  margin-right: 10px;
-  font-weight: 900;
+.landing-page .overlap {
+  height: 1130px;
+  position: relative;
+  width: 1920px;
+}
+
+.landing-page .header-background {
+  height: 1130px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.landing-page .ellipse {
+  background-color: #fd5956;
+  border-radius: 10px;
+  height: 20px;
+  left: 902px;
+  position: relative;
+  top: 555px;
+  width: 20px;
+}
+
+.landing-page .nav-bar {
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.landing-page .navigaiton-items {
+  height: 22px;
+  left: 602px;
+  position: absolute;
+  top: 52px;
+  width: 719px;
+}
+
+.landing-page .home-active {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 56px;
+}
+
+.landing-page .text-wrapper {
+  color: #fd5956;
+  font-family: "Poppins-Regular", Helvetica;
   font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
 }
 
-ul.social-links li a:hover {
-  color: #D4F2D2;
-  transition: 0.3s;
+.landing-page .line {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 28px;
 }
 
-#profile-pic {
-  width: 230px;
-  height: 230px;
-  border-radius: 50%;
+.landing-page .text-wrapper-2 {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 303px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 1px;
+  white-space: nowrap;
 }
 
-div {
-  background-color: #D4F2D2;
-  padding: 5px;
-  width: 400px;
-  margin: 25px auto;
-  border: 1px solid #EAEAEA;
-  border-radius: 5px;
+.landing-page .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 641px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 1px;
+  white-space: nowrap;
 }
 
-a.instagram-link {
-  color: #405DE6;
-  text-decoration: none;
-  transition: color 0.3s;
+.landing-page .portfolio-btn {
+  height: 52px;
+  left: 1580px;
+  position: absolute;
+  top: 37px;
+  width: 190px;
 }
 
-a.instagram-link:hover {
-  color: #E1306C;
+.landing-page .overlap-group {
+  background-color: #000000;
+  height: 52px;
+  position: relative;
+  width: 188px;
+}
+
+.landing-page .text-wrapper-4 {
+  color: #fffefd;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 12px;
+}
+
+.landing-page .header-details {
+  height: 577px;
+  left: 248px;
+  position: absolute;
+  top: 188px;
+  width: 558px;
+}
+
+.landing-page .title {
+  height: 91px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 470px;
+}
+
+.landing-page .hey-i-m-camila {
+  color: transparent;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  width: 468px;
+}
+
+.landing-page .span {
+  color: #000000;
+  line-height: 30px;
+}
+
+.landing-page .text-wrapper-5 {
+  color: #000000;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.landing-page .text-wrapper-6 {
+  color: #fd5956;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.landing-page .proffession {
+  height: 313px;
+  left: 0;
+  position: absolute;
+  top: 112px;
+  width: 624px;
+}
+
+.landing-page .overlap-group-2 {
+  height: 313px;
+  position: relative;
+  width: 618px;
+}
+
+.landing-page .text-wrapper-7 {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 100px;
+  font-weight: 600;
+  height: 100px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-8 {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 100px;
+  font-weight: 600;
+  left: 69px;
+  letter-spacing: 0;
+  line-height: 110px;
+  position: absolute;
+  top: 85px;
+  white-space: nowrap;
+  width: 549px;
+}
+
+.landing-page .text-wrapper-9 {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 100px;
+  font-weight: 600;
+  left: 69px;
+  letter-spacing: 0;
+  line-height: 110px;
+  position: absolute;
+  text-align: right;
+  top: 189px;
+  white-space: nowrap;
+  width: 549px;
+}
+
+.landing-page .description {
+  height: 126px;
+  left: -7px;
+  position: absolute;
+  top: 451px;
+  width: 627px;
+}
+
+.landing-page .learning-web {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: justify;
+  top: 0;
+  width: 625px;
+}
+
+.landing-page .social-links {
+  height: 47px;
+  left: 0;
+  position: absolute;
+  top: 613px;
+  width: 130px;
+}
+
+.landing-page .header-image-view {
+  height: 828px;
+  left: 1115px;
+  position: absolute;
+  top: 252px;
+  width: 553px;
+}
+
+.landing-page .overlap-2 {
+  height: 828px;
+  position: relative;
+}
+
+.landing-page .vector {
+  height: 575px;
+  left: 0;
+  position: absolute;
+  top: 108px;
+  width: 553px;
+}
+
+.landing-page .img {
+  height: 575px;
+  left: 0;
+  position: absolute;
+  top: 88px;
+  width: 553px;
+}
+
+.landing-page .whatsapp-image {
+  height: 739px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 553px;
+}
+
+.landing-page .overlay {
+  height: 571px;
+  left: 14px;
+  position: absolute;
+  top: 257px;
+  width: 539px;
+}
+
+.landing-page .overlap-3 {
+  height: 2530px;
+  left: 0;
+  position: absolute;
+  top: 1240px;
+  width: 2880px;
+}
+
+.landing-page .footer {
+  background-color: transparent;
+  height: 998px;
+  left: 0;
+  position: absolute;
+  top: 1532px;
+  width: 1920px;
+}
+
+.landing-page .contact-heading {
+  height: 168px;
+  left: 523px;
+  position: relative;
+  top: 252px;
+  width: 879px;
+}
+
+.landing-page .text-wrapper-10 {
+  color: #fd5956;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 65px;
+  font-weight: 600;
+  left: 295px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-11 {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  width: 875px;
+}
+
+.landing-page .about-me {
+  height: 1752px;
+  left: 13px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.landing-page .about-heading {
+  height: 1334px;
+  left: 287px;
+  position: relative;
+  top: 80px;
+  width: 1349px;
+}
+
+.landing-page .p {
+  color: transparent;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 65px;
+  font-weight: 600;
+  left: 502px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-12 {
+  color: #000000;
+}
+
+.landing-page .text-wrapper-13 {
+  color: #fd5956;
+}
+
+.landing-page .i-am-a-brazilian-now {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: justify;
+  top: 152px;
+  width: 1345px;
+}
+
+.landing-page .image-model {
+  height: 1290px;
+  left: 22px;
+  position: absolute;
+  top: 590px;
+  width: 2858px;
+}
+
+.landing-page .vector-2 {
+  height: 798px;
+  left: -1px;
+  position: absolute;
+  top: 493px;
+  width: 1899px;
+}
+
+.landing-page .hue-red {
+  background-color: #fd5956;
+  border-radius: 181.5px;
+  filter: blur(224px);
+  height: 363px;
+  left: 1399px;
+  mix-blend-mode: hue;
+  position: absolute;
+  top: 0;
+  width: 363px;
 }
