@@ -1,458 +1,265 @@
+.landing-page,
+.landing-page * {
+  box-sizing: border-box;
+}
 .landing-page {
-  background-color: #fffefd;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.landing-page .div {
-  background-color: #fffefd;
+  background: #fffefd;
+  width: 1920px;
   height: 3488px;
+  position: relative;
   overflow: hidden;
-  position: relative;
-  width: 1920px;
 }
-
-.landing-page .header {
-  background-color: transparent;
+.header {
+  width: 1920px;
   height: 1080px;
+  position: absolute;
   left: 22px;
-  position: absolute;
   top: 113px;
-  width: 1920px;
 }
-
-.landing-page .overlap {
-  height: 1130px;
-  position: relative;
+.header-background {
   width: 1920px;
-}
-
-.landing-page .header-background {
   height: 1130px;
-  left: 0;
   position: absolute;
-  top: 0;
-  width: 1920px;
+  left: 0px;
+  top: 0px;
 }
-
-.landing-page .ellipse {
-  background-color: #fd5956;
-  border-radius: 10px;
-  height: 20px;
-  left: 902px;
-  position: relative;
-  top: 555px;
+.ellipse-255 {
+  background: #fd5956;
+  border-radius: 50%;
   width: 20px;
-}
-
-.landing-page .nav-bar {
-  height: 126px;
-  left: 0;
+  height: 20px;
   position: absolute;
-  top: 0;
+  left: 902px;
+  top: 555px;
+}
+.nav-bar {
   width: 1920px;
-}
-
-.landing-page .navigaiton-items {
-  height: 22px;
-  left: 602px;
+  height: 126px;
   position: absolute;
-  top: 52px;
-  width: 719px;
+  left: 0px;
+  top: 0px;
 }
-
-.landing-page .home-active {
-  height: 22px;
-  left: 0;
+.navigaiton-items {
   position: absolute;
-  top: 0;
-  width: 56px;
+  inset: 0;
 }
-
-.landing-page .text-wrapper {
+.home-active {
+  width: 54px;
+  height: 22px;
+  position: static;
+}
+.home {
   color: #fd5956;
-  font-family: "Poppins-Regular", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 20px;
+  text-align: left;
+  font: 400 18px/20px "Poppins", sans-serif;
   position: absolute;
-  top: 0;
-  white-space: nowrap;
+  left: 602px;
+  top: 52px;
 }
-
-.landing-page .line {
-  height: 2px;
-  left: 0;
-  position: absolute;
-  top: 20px;
+.line-13 {
+  border-style: solid;
+  border-color: #fd5956;
+  border-width: 2px 0 0 0;
   width: 28px;
+  height: 0px;
+  position: absolute;
+  left: 602px;
+  top: 74px;
 }
-
-.landing-page .text-wrapper-2 {
+.about-me {
   color: #000000;
-  font-family: "Poppins-Regular", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 303px;
-  letter-spacing: 0;
-  line-height: 20px;
+  text-align: left;
+  font: 400 18px/20px "Poppins", sans-serif;
   position: absolute;
-  top: 1px;
-  white-space: nowrap;
+  left: 905px;
+  top: 53px;
 }
-
-.landing-page .text-wrapper-3 {
+.contact {
   color: #000000;
-  font-family: "Poppins-Regular", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 641px;
-  letter-spacing: 0;
-  line-height: 20px;
+  text-align: left;
+  font: 400 18px/20px "Poppins", sans-serif;
   position: absolute;
-  top: 1px;
-  white-space: nowrap;
+  left: 1243px;
+  top: 53px;
 }
-
-.landing-page .portfolio-btn {
-  height: 52px;
-  left: 1580px;
+.portfolio-btn {
   position: absolute;
-  top: 37px;
-  width: 190px;
+  inset: 0;
 }
-
-.landing-page .overlap-group {
-  background-color: #000000;
-  height: 52px;
-  position: relative;
+.rectangle-3801 {
+  background: #000000;
   width: 188px;
+  height: 52px;
+  position: absolute;
+  left: 1580px;
+  top: 37px;
 }
-
-.landing-page .text-wrapper-4 {
+.portfolio-here {
   color: #fffefd;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 18px;
-  font-weight: 600;
-  left: 30px;
-  letter-spacing: 0;
-  line-height: normal;
+  text-align: left;
+  font: 600 18px "Poppins", sans-serif;
   position: absolute;
-  top: 12px;
+  left: 1610.5px;
+  top: 48.5px;
 }
-
-.landing-page .header-details {
-  height: 577px;
-  left: 248px;
-  position: absolute;
-  top: 188px;
+.header-details {
   width: 558px;
-}
-
-.landing-page .title {
-  height: 91px;
-  left: 0;
+  height: 577px;
   position: absolute;
-  top: 0;
-  width: 470px;
+  left: 248px;
+  top: 188px;
 }
-
-.landing-page .hey-i-m-camila {
-  color: transparent;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 20px;
-  font-weight: 600;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 20px;
+.title {
   position: absolute;
-  top: 0;
+  inset: 0;
+}
+.hey-i-m-camila-prates {
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
   width: 468px;
 }
-
-.landing-page .span {
+.hey-i-m-camila-prates-span {
   color: #000000;
-  line-height: 30px;
+  font: 600 20px/30px "Poppins", sans-serif;
 }
-
-.landing-page .text-wrapper-5 {
+.hey-i-m-camila-prates-span2 {
   color: #000000;
-  font-size: 32px;
-  line-height: 32px;
+  font: 600 32px/32px "Poppins", sans-serif;
 }
-
-.landing-page .text-wrapper-6 {
+.hey-i-m-camila-prates-span3 {
   color: #fd5956;
-  font-size: 32px;
-  line-height: 32px;
+  font: 600 32px/32px "Poppins", sans-serif;
 }
-
-.landing-page .proffession {
-  height: 313px;
-  left: 0;
+.proffession {
   position: absolute;
+  inset: 0;
+}
+.full-stack {
+  color: #000000;
+  text-align: left;
+  font: 600 100px/100px "Poppins", sans-serif;
+  position: absolute;
+  left: 0px;
   top: 112px;
-  width: 624px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-
-.landing-page .overlap-group-2 {
-  height: 313px;
-  position: relative;
-  width: 618px;
-}
-
-.landing-page .text-wrapper-7 {
+.developer {
   color: #000000;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 100px;
-  font-weight: 600;
-  height: 100px;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 100px;
+  text-align: left;
+  font: 600 100px/110px "Poppins", sans-serif;
   position: absolute;
-  top: 0;
-  white-space: nowrap;
-}
-
-.landing-page .text-wrapper-8 {
-  color: #000000;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 100px;
-  font-weight: 600;
   left: 69px;
-  letter-spacing: 0;
-  line-height: 110px;
-  position: absolute;
-  top: 85px;
-  white-space: nowrap;
+  top: 197px;
   width: 549px;
+  height: 124px;
 }
-
-.landing-page .text-wrapper-9 {
+.to-be {
   color: #000000;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 100px;
-  font-weight: 600;
-  left: 69px;
-  letter-spacing: 0;
-  line-height: 110px;
-  position: absolute;
   text-align: right;
-  top: 189px;
-  white-space: nowrap;
+  font: 600 100px/110px "Poppins", sans-serif;
+  position: absolute;
+  left: 69px;
+  top: 301px;
   width: 549px;
+  height: 124px;
 }
-
-.landing-page .description {
-  height: 126px;
+.description {
+  position: absolute;
+  inset: 0;
+}
+.learning-web-development-will-be-a-thrilling-journey-and-now-i-m-crafting-my-first-profile-web-page-it-s-more-than-code-it-s-a-digital-expression-of-my-skills-and-passions-here-s-to-the-exciting-possibilities-ahead {
+  color: #000000;
+  text-align: justified;
+  font: 400 20px "Poppins", sans-serif;
+  position: absolute;
   left: -7px;
-  position: absolute;
   top: 451px;
-  width: 627px;
-}
-
-.landing-page .learning-web {
-  color: #000000;
-  font-family: "Poppins-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 0;
   width: 625px;
+  height: 126px;
 }
-
-.landing-page .social-links {
-  height: 47px;
-  left: 0;
+.social-links {
   position: absolute;
+  left: 0px;
   top: 613px;
-  width: 130px;
+  overflow: visible;
 }
-
-.landing-page .header-image-view {
-  height: 828px;
+.header-image-view {
+  position: absolute;
   left: 1115px;
-  position: absolute;
   top: 252px;
-  width: 553px;
+  overflow: visible;
 }
-
-.landing-page .overlap-2 {
-  height: 828px;
-  position: relative;
-}
-
-.landing-page .vector {
-  height: 575px;
-  left: 0;
-  position: absolute;
-  top: 108px;
-  width: 553px;
-}
-
-.landing-page .img {
-  height: 575px;
-  left: 0;
-  position: absolute;
-  top: 88px;
-  width: 553px;
-}
-
-.landing-page .whatsapp-image {
-  height: 739px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 553px;
-}
-
-.landing-page .overlay {
-  height: 571px;
-  left: 14px;
-  position: absolute;
-  top: 257px;
-  width: 539px;
-}
-
-.landing-page .overlap-3 {
-  height: 2530px;
-  left: 0;
-  position: absolute;
-  top: 1240px;
-  width: 2880px;
-}
-
-.landing-page .footer {
-  background-color: transparent;
-  height: 998px;
-  left: 0;
-  position: absolute;
-  top: 1532px;
+.footer {
   width: 1920px;
+  height: 998px;
+  position: absolute;
+  left: 0px;
+  top: 2772px;
 }
-
-.landing-page .contact-heading {
-  height: 168px;
-  left: 523px;
-  position: relative;
-  top: 252px;
-  width: 879px;
+.contact-heading {
+  position: absolute;
+  inset: 0;
 }
-
-.landing-page .text-wrapper-10 {
+.contact2 {
   color: #fd5956;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 65px;
-  font-weight: 600;
-  left: 295px;
-  letter-spacing: 0;
-  line-height: 100px;
-  position: absolute;
   text-align: center;
-  top: 0;
-  white-space: nowrap;
+  font: 600 65px/100px "Poppins", sans-serif;
+  position: absolute;
+  left: 818px;
+  top: 252px;
 }
-
-.landing-page .text-wrapper-11 {
+.camilaprates-1-gmail-com {
   color: #000000;
-  font-family: "Poppins-Regular", Helvetica;
-  font-size: 32px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
   text-align: center;
-  top: 120px;
+  font: 400 32px "Poppins", sans-serif;
+  position: absolute;
+  left: 523px;
+  top: 372px;
   width: 875px;
 }
-
-.landing-page .about-me {
-  height: 1752px;
-  left: 13px;
-  position: absolute;
-  top: 0;
+.about-me2 {
   width: 1920px;
-}
-
-.landing-page .about-heading {
-  height: 1334px;
-  left: 287px;
-  position: relative;
-  top: 80px;
-  width: 1349px;
-}
-
-.landing-page .p {
-  color: transparent;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 65px;
-  font-weight: 600;
-  left: 502px;
-  letter-spacing: 0;
-  line-height: 100px;
+  height: 1752px;
   position: absolute;
+  left: 13px;
+  top: 1240px;
+}
+.about-heading {
+  position: absolute;
+  inset: 0;
+}
+.about-me3 {
   text-align: center;
-  top: 0;
-  white-space: nowrap;
+  font: 600 65px/100px "Poppins", sans-serif;
+  position: absolute;
+  left: 789px;
+  top: 80px;
 }
-
-.landing-page .text-wrapper-12 {
+.about-me-3-span {
   color: #000000;
+  font: 600 65px/100px "Poppins", sans-serif;
 }
-
-.landing-page .text-wrapper-13 {
+.about-me-3-span2 {
   color: #fd5956;
+  font: 600 65px/100px "Poppins", sans-serif;
 }
-
-.landing-page .i-am-a-brazilian-now {
+.i-am-a-brazilian-now-embracing-the-canadian-way-of-life-with-a-passion-for-pets-and-a-web-development-learner-i-am-weaving-together-brazilian-warmth-and-canadian-coolness-in-every-line-of-code-web-development-in-agriculture-merges-tradition-with-technology-streamlining-farming-practices-and-fostering-community-connections-it-s-where-the-past-and-the-future-unite-for-a-more-sustainable-and-efficient-agricultural-landscape-navigating-the-challenges-as-a-woman-in-agriculture-and-technology-demands-determination-and-resilience-in-these-male-dominated-fields-i-see-every-obstacle-as-an-opportunity-to-prove-my-capabilities-and-foster-inclusivity-contributing-to-a-more-equitable-future {
   color: #000000;
-  font-family: "Poppins-Regular", Helvetica;
-  font-size: 40px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
+  text-align: justified;
+  font: 400 40px "Poppins", sans-serif;
   position: absolute;
-  text-align: justify;
-  top: 152px;
+  left: calc(50% - 673px);
+  top: 232px;
   width: 1345px;
+  height: 1182px;
 }
-
-.landing-page .image-model {
-  height: 1290px;
+.image-model {
+  position: absolute;
   left: 22px;
-  position: absolute;
-  top: 590px;
-  width: 2858px;
-}
-
-.landing-page .vector-2 {
-  height: 798px;
-  left: -1px;
-  position: absolute;
-  top: 493px;
-  width: 1899px;
-}
-
-.landing-page .hue-red {
-  background-color: #fd5956;
-  border-radius: 181.5px;
-  filter: blur(224px);
-  height: 363px;
-  left: 1399px;
-  mix-blend-mode: hue;
-  position: absolute;
-  top: 0;
-  width: 363px;
+  top: 1830px;
+  overflow: visible;
 }
