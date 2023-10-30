@@ -1,265 +1,458 @@
-.landing-page,
-.landing-page * {
-  box-sizing: border-box;
-}
 .landing-page {
-  background: #fffefd;
+  background-color: #fffefd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-page .div {
+  background-color: #fffefd;
+  overflow: hidden;
   width: 1920px;
   height: 3488px;
   position: relative;
-  overflow: hidden;
 }
-.header {
+
+.landing-page .header {
+  position: absolute;
   width: 1920px;
   height: 1080px;
-  position: absolute;
-  left: 22px;
   top: 113px;
+  left: 22px;
+  background-color: transparent;
 }
-.header-background {
+
+.landing-page .overlap {
+  position: relative;
   width: 1920px;
   height: 1130px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
 }
-.ellipse-255 {
-  background: #fd5956;
-  border-radius: 50%;
+
+.landing-page .header-background {
+  position: absolute;
+  width: 1920px;
+  height: 1130px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .ellipse {
+  position: relative;
   width: 20px;
   height: 20px;
-  position: absolute;
-  left: 902px;
   top: 555px;
+  left: 902px;
+  background-color: #fd5956;
+  border-radius: 10px;
 }
-.nav-bar {
+
+.landing-page .nav-bar {
+  position: absolute;
   width: 1920px;
   height: 126px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  top: 0;
+  left: 0;
 }
-.navigaiton-items {
+
+.landing-page .navigaiton-items {
   position: absolute;
-  inset: 0;
-}
-.home-active {
-  width: 54px;
+  width: 719px;
   height: 22px;
-  position: static;
-}
-.home {
-  color: #fd5956;
-  text-align: left;
-  font: 400 18px/20px "Poppins", sans-serif;
-  position: absolute;
-  left: 602px;
   top: 52px;
-}
-.line-13 {
-  border-style: solid;
-  border-color: #fd5956;
-  border-width: 2px 0 0 0;
-  width: 28px;
-  height: 0px;
-  position: absolute;
   left: 602px;
-  top: 74px;
 }
-.about-me {
+
+.landing-page .home-active {
+  position: absolute;
+  width: 56px;
+  height: 22px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #fd5956;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .line {
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  top: 20px;
+  left: 0;
+}
+
+.landing-page .text-wrapper-2 {
+  position: absolute;
+  top: 1px;
+  left: 303px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
   color: #000000;
-  text-align: left;
-  font: 400 18px/20px "Poppins", sans-serif;
-  position: absolute;
-  left: 905px;
-  top: 53px;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
 }
-.contact {
+
+.landing-page .text-wrapper-3 {
+  position: absolute;
+  top: 1px;
+  left: 641px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
   color: #000000;
-  text-align: left;
-  font: 400 18px/20px "Poppins", sans-serif;
-  position: absolute;
-  left: 1243px;
-  top: 53px;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
 }
-.portfolio-btn {
+
+.landing-page .portfolio-btn {
   position: absolute;
-  inset: 0;
+  width: 190px;
+  height: 52px;
+  top: 37px;
+  left: 1580px;
 }
-.rectangle-3801 {
-  background: #000000;
+
+.landing-page .overlap-group {
+  position: relative;
   width: 188px;
   height: 52px;
-  position: absolute;
-  left: 1580px;
-  top: 37px;
+  background-color: #000000;
 }
-.portfolio-here {
+
+.landing-page .text-wrapper-4 {
+  position: absolute;
+  top: 12px;
+  left: 30px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
   color: #fffefd;
-  text-align: left;
-  font: 600 18px "Poppins", sans-serif;
-  position: absolute;
-  left: 1610.5px;
-  top: 48.5px;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
 }
-.header-details {
+
+.landing-page .header-details {
+  position: absolute;
   width: 558px;
   height: 577px;
-  position: absolute;
-  left: 248px;
   top: 188px;
+  left: 248px;
 }
-.title {
+
+.landing-page .title {
   position: absolute;
-  inset: 0;
+  width: 470px;
+  height: 91px;
+  top: 0;
+  left: 0;
 }
-.hey-i-m-camila-prates {
-  text-align: left;
+
+.landing-page .hey-i-m-camila {
   position: absolute;
-  left: 0px;
-  top: 0px;
   width: 468px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
 }
-.hey-i-m-camila-prates-span {
+
+.landing-page .span {
   color: #000000;
-  font: 600 20px/30px "Poppins", sans-serif;
+  line-height: 30px;
 }
-.hey-i-m-camila-prates-span2 {
+
+.landing-page .text-wrapper-5 {
   color: #000000;
-  font: 600 32px/32px "Poppins", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
 }
-.hey-i-m-camila-prates-span3 {
+
+.landing-page .text-wrapper-6 {
   color: #fd5956;
-  font: 600 32px/32px "Poppins", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
 }
-.proffession {
+
+.landing-page .proffession {
   position: absolute;
-  inset: 0;
-}
-.full-stack {
-  color: #000000;
-  text-align: left;
-  font: 600 100px/100px "Poppins", sans-serif;
-  position: absolute;
-  left: 0px;
+  width: 624px;
+  height: 313px;
   top: 112px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  left: 0;
 }
-.developer {
-  color: #000000;
-  text-align: left;
-  font: 600 100px/110px "Poppins", sans-serif;
+
+.landing-page .overlap-group-2 {
+  position: relative;
+  width: 618px;
+  height: 313px;
+}
+
+.landing-page .text-wrapper-7 {
   position: absolute;
-  left: 69px;
-  top: 197px;
-  width: 549px;
-  height: 124px;
-}
-.to-be {
+  height: 100px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
   color: #000000;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-8 {
+  position: absolute;
+  width: 549px;
+  top: 85px;
+  left: 69px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: 110px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-9 {
+  position: absolute;
+  width: 549px;
+  top: 189px;
+  left: 69px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 100px;
   text-align: right;
-  font: 600 100px/110px "Poppins", sans-serif;
-  position: absolute;
-  left: 69px;
-  top: 301px;
-  width: 549px;
-  height: 124px;
+  letter-spacing: 0;
+  line-height: 110px;
+  white-space: nowrap;
 }
-.description {
+
+.landing-page .description {
   position: absolute;
-  inset: 0;
-}
-.learning-web-development-will-be-a-thrilling-journey-and-now-i-m-crafting-my-first-profile-web-page-it-s-more-than-code-it-s-a-digital-expression-of-my-skills-and-passions-here-s-to-the-exciting-possibilities-ahead {
-  color: #000000;
-  text-align: justified;
-  font: 400 20px "Poppins", sans-serif;
-  position: absolute;
-  left: -7px;
-  top: 451px;
-  width: 625px;
+  width: 627px;
   height: 126px;
+  top: 451px;
+  left: -7px;
 }
-.social-links {
+
+.landing-page .learning-web {
   position: absolute;
-  left: 0px;
+  width: 625px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .social-links {
+  position: absolute;
+  width: 130px;
+  height: 47px;
   top: 613px;
-  overflow: visible;
+  left: 0;
 }
-.header-image-view {
+
+.landing-page .header-image-view {
   position: absolute;
-  left: 1115px;
+  width: 553px;
+  height: 828px;
   top: 252px;
-  overflow: visible;
+  left: 1115px;
 }
-.footer {
+
+.landing-page .overlap-2 {
+  position: relative;
+  height: 828px;
+}
+
+.landing-page .vector {
+  position: absolute;
+  width: 553px;
+  height: 575px;
+  top: 108px;
+  left: 0;
+}
+
+.landing-page .img {
+  position: absolute;
+  width: 553px;
+  height: 575px;
+  top: 88px;
+  left: 0;
+}
+
+.landing-page .whatsapp-image {
+  position: absolute;
+  width: 553px;
+  height: 739px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .overlay {
+  position: absolute;
+  width: 539px;
+  height: 571px;
+  top: 257px;
+  left: 14px;
+}
+
+.landing-page .overlap-3 {
+  position: absolute;
+  width: 2880px;
+  height: 2530px;
+  top: 1240px;
+  left: 0;
+}
+
+.landing-page .footer {
+  position: absolute;
   width: 1920px;
   height: 998px;
-  position: absolute;
-  left: 0px;
-  top: 2772px;
+  top: 1532px;
+  left: 0;
+  background-color: transparent;
 }
-.contact-heading {
-  position: absolute;
-  inset: 0;
-}
-.contact2 {
-  color: #fd5956;
-  text-align: center;
-  font: 600 65px/100px "Poppins", sans-serif;
-  position: absolute;
-  left: 818px;
+
+.landing-page .contact-heading {
+  position: relative;
+  width: 879px;
+  height: 168px;
   top: 252px;
-}
-.camilaprates-1-gmail-com {
-  color: #000000;
-  text-align: center;
-  font: 400 32px "Poppins", sans-serif;
-  position: absolute;
   left: 523px;
-  top: 372px;
-  width: 875px;
 }
-.about-me2 {
+
+.landing-page .text-wrapper-10 {
+  position: absolute;
+  top: 0;
+  left: 295px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #fd5956;
+  font-size: 65px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-11 {
+  position: absolute;
+  width: 875px;
+  top: 120px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .about-me {
   width: 1920px;
   height: 1752px;
-  position: absolute;
   left: 13px;
-  top: 1240px;
-}
-.about-heading {
   position: absolute;
-  inset: 0;
+  top: 0;
 }
-.about-me3 {
-  text-align: center;
-  font: 600 65px/100px "Poppins", sans-serif;
-  position: absolute;
-  left: 789px;
+
+.landing-page .about-heading {
+  position: relative;
+  width: 1349px;
+  height: 1334px;
   top: 80px;
+  left: 287px;
 }
-.about-me-3-span {
+
+.landing-page .p {
+  left: 502px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 65px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 100px;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}
+
+.landing-page .text-wrapper-12 {
   color: #000000;
-  font: 600 65px/100px "Poppins", sans-serif;
 }
-.about-me-3-span2 {
+
+.landing-page .text-wrapper-13 {
   color: #fd5956;
-  font: 600 65px/100px "Poppins", sans-serif;
 }
-.i-am-a-brazilian-now-embracing-the-canadian-way-of-life-with-a-passion-for-pets-and-a-web-development-learner-i-am-weaving-together-brazilian-warmth-and-canadian-coolness-in-every-line-of-code-web-development-in-agriculture-merges-tradition-with-technology-streamlining-farming-practices-and-fostering-community-connections-it-s-where-the-past-and-the-future-unite-for-a-more-sustainable-and-efficient-agricultural-landscape-navigating-the-challenges-as-a-woman-in-agriculture-and-technology-demands-determination-and-resilience-in-these-male-dominated-fields-i-see-every-obstacle-as-an-opportunity-to-prove-my-capabilities-and-foster-inclusivity-contributing-to-a-more-equitable-future {
-  color: #000000;
-  text-align: justified;
-  font: 400 40px "Poppins", sans-serif;
+
+.landing-page .i-am-a-brazilian-now {
   position: absolute;
-  left: calc(50% - 673px);
-  top: 232px;
   width: 1345px;
-  height: 1182px;
+  top: 152px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
 }
-.image-model {
+
+.landing-page .image-model {
   position: absolute;
+  width: 2858px;
+  height: 1290px;
+  top: 590px;
   left: 22px;
-  top: 1830px;
-  overflow: visible;
+}
+
+.landing-page .vector-2 {
+  position: absolute;
+  width: 1899px;
+  height: 798px;
+  top: 493px;
+  left: -1px;
+}
+
+.landing-page .hue-red {
+  position: absolute;
+  width: 363px;
+  height: 363px;
+  top: 0;
+  left: 1399px;
+  background-color: #fd5956;
+  border-radius: 181.5px;
+  filter: blur(224px);
+  mix-blend-mode: hue;
 }
