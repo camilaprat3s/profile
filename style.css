@@ -1,0 +1,58 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #BEB7DF;
+  color: #faf8f7; /* Updated color code */
+  padding: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-family: "Croissant One", cursive;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+ul.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+ul.social-links li a {
+  text-decoration: none;
+  color: #34113F;
+  margin-right: 10px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+ul.social-links li a:hover {
+  color: #D4F2D2;
+  transition: 0.3s;
+}
+
+#profile-pic {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+
+div {
+  background-color: #D4F2D2;
+  padding: 5px;
+  width: 400px;
+  margin: 25px auto;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+}
+
+a.instagram-link {
+  color: #405DE6;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a.instagram-link:hover {
+  color: #E1306C;
+}
